@@ -8,8 +8,8 @@ def insertion_sort(arr,n):
             arr[j + 1] = arr[j]
             j -= 1
         arr[j + 1] = key
-    return arr 
+    return 
 
-
-print(insertion_sort(vetor_teste, len(vetor_teste)))
+insertion_sort(vetor_teste, len(vetor_teste))
+print(vetor_teste)
 
