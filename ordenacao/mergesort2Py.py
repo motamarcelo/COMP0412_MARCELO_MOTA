@@ -33,4 +33,6 @@ def mergesort(arr, start, end):
     merge(arr, start, middle, end)
     return arr
 
-print(mergesort(vetor_teste, 0, len(vetor_teste)))
+
+mergesort(vetor_teste, 0, len(vetor_teste))
+print(vetor_teste)

@@ -16,5 +16,6 @@ def quicksort(A, p, r):
         quicksort(A, p, q - 1)
         quicksort(A, q + 1, r)
     return A
-vetor_teste = [17, 3, 42, 9, 28, 55, 1, 34, 23, 11, 68, 5, 90, 14, 76, 39, 8, 61, 47, 19, 28, 39, 5, 100, 0]
-print(quicksort(vetor_teste, 0, len(vetor_teste) - 1))
+
+quicksort(vetor_teste, 0, len(vetor_teste) - 1)
+print(vetor_teste)
